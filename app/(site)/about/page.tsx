@@ -65,14 +65,15 @@ export default async function About() {
               </p>
 
               <ul className="flex flex-wrap items-center gap-3 mt-8">
-                {data.skills.map((skill, id) => (
-                  <li
-                    key={id}
-                    className="bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
-                  >
-                    {skill}
-                  </li>
-                ))}
+                {data.skills &&
+                  data.skills.map((skill, id) => (
+                    <li
+                      key={id}
+                      className="bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
+                    >
+                      {skill}
+                    </li>
+                  ))}
               </ul>
             </section>
           </div>

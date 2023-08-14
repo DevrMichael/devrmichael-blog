@@ -19,19 +19,20 @@ export default async function Home() {
                 {data.shortBio}
               </p>
               <ul className="flex items-center gap-x-6 my-10">
-                {Object.entries(data.socialLinks)
-                  .sort()
-                  .map(([key, value], id) => (
-                    <li key={id}>
-                      <a
-                        href={value}
-                        rel="noreferer noopener"
-                        className="flex items-center gap-x-3 mb-5 hover:text-purple-400 duration-300"
-                      >
-                        {key[0].toUpperCase() + key.toLowerCase().slice(1)}
-                      </a>
-                    </li>
-                  ))}
+                {data.socialLinks &&
+                  Object.entries(data.socialLinks)
+                    .sort()
+                    .map(([key, value], id) => (
+                      <li key={id}>
+                        <a
+                          href={value}
+                          rel="noreferer noopener"
+                          className="flex items-center gap-x-3 mb-5 hover:text-purple-400 duration-300"
+                        >
+                          {key[0].toUpperCase() + key.toLowerCase().slice(1)}
+                        </a>
+                      </li>
+                    ))}
               </ul>
             </div>
           ))}
