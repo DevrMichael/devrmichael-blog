@@ -32,14 +32,10 @@ export default async function Job() {
             <div className="flex flex-col items-start">
               <h3 className="text-xl font-bold">{data.name}</h3>
               <p>{data.jobTitle}</p>
-              {data.startDate && data.endDate && (
-                <small className="text-sm text-zinc-500 mt-2 tracking-widest uppercase">
-                  {data.startDate.toString()} - {data.endDate.toString()}
-                </small>
-              )}
-              <p className="text-base text-zinc-400 my-4">
-                {data.description && data.description}
-              </p>
+              <small className="text-sm text-zinc-500 mt-2 tracking-widest uppercase">
+                {data.startDate.toString()} - {data.endDate.toString()}
+              </small>
+              <p className="text-base text-zinc-400 my-4">{data.description}</p>
             </div>
           </div>
         ))}
