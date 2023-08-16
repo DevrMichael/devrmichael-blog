@@ -38,7 +38,7 @@ export default async function About() {
                   <a
                     // href={`${data.resumeURL}?dl=${data.fullName}_resume`}
                     href="https://cdn.sanity.io/files/y18q52l5/production/da3aa9ab110a0e00f95ce610d194b4763b7e50c9.pdf"
-                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center font-medium"
+                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center font-medium text-white"
                     target="_blank"
                   >
                     <BiFile className="text-base" /> Download Resumé
@@ -71,7 +71,7 @@ export default async function About() {
                   data.skills.map((skill, id) => (
                     <li
                       key={id}
-                      className="bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
+                      className="bg-white border border-black border-2 hover:border-zinc-700 rounded-md px-2 py-1"
                     >
                       {skill}
                     </li>
