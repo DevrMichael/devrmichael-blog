@@ -27,14 +27,14 @@ export default async function Project() {
           <Link
             href={`/projects/${project.slug}`}
             key={project._id}
-            className="flex items-center gap-x-4 bg-[#1d1d20] border border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
+            className="flex items-center gap-x-4 bg-white border border-[#1d1d20] border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
           >
             <Image
               src={project.logo}
-              width={60}
-              height={60}
+              width={90}
+              height={90}
               alt={project.name}
-              className="bg-zinc-800 rounded-md p-2"
+              className="rounded-md p-2"
             />
             <div>
               <h2 className="font-semibold mb-1">{project.name}</h2>
