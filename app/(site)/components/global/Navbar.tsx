@@ -20,10 +20,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link
-                href="/projects"
-                className="hover:text-purple-400 duration-300"
-              >
+              <Link href="/blog" className="hover:text-purple-400 duration-300">
                 Blog
               </Link>
             </li>
