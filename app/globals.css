@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+ul {
+  list-style: unset;
+}

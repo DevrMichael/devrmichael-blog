@@ -56,7 +56,7 @@ export default async function Project({ params }: Props) {
           alt={project.coverImage?.alt || project.name}
         />
 
-        <div className="flex flex-col gap-y-6 mt-8 leading-7 text-zinc-400">
+        <div className="flex flex-col gap-y-6 mt-8 leading-7 text-zinc-600">
           <PortableText value={project.description} />
         </div>
       </div>

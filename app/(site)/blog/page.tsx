@@ -37,7 +37,9 @@ export default async function Project() {
               className="rounded-md p-2"
             />
             <div>
-              <h2 className="font-semibold mb-1">{project.name}</h2>
+              <h2 className="font-semibold mb-1 text-zinc-500">
+                {project.name}
+              </h2>
               <div className="text-sm text-zinc-400">{project.tagline}</div>
             </div>
           </Link>
