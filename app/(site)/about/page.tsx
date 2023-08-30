@@ -45,17 +45,13 @@ export default async function About() {
                   </a>
                 </div>
 
-                <ul>
-                  <li>
-                    <a
-                      href={`mailto:${data.email}`}
-                      className="flex items-center gap-x-2 hover:text-purple-400 duration-300"
-                    >
-                      <BiEnvelope className="text-lg" />
-                      {data.email}
-                    </a>
-                  </li>
-                </ul>
+                <a
+                  href={`mailto:${data.email}`}
+                  className="flex items-center gap-x-2 hover:text-purple-400 duration-300"
+                >
+                  <BiEnvelope className="text-lg" />
+                  {data.email}
+                </a>
               </div>
             </section>
 
@@ -69,12 +65,12 @@ export default async function About() {
               <ul className="flex flex-wrap items-center gap-3 mt-8">
                 {data.skills &&
                   data.skills.map((skill, id) => (
-                    <li
+                    <div
                       key={id}
                       className="bg-white border border-black border-2 hover:border-zinc-700 rounded-md px-2 py-1"
                     >
                       {skill}
-                    </li>
+                    </div>
                   ))}
               </ul>
             </section>

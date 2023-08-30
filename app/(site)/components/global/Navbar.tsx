@@ -9,22 +9,13 @@ export default function Navbar() {
         <Link href="/">
           <Image src={Logo} width={35} height={35} alt="logo" />
         </Link>
-        <nav>
-          <ul className="flex items-center gap-x-8">
-            <li>
-              <Link
-                href="/about"
-                className="hover:text-purple-400 duration-300"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog" className="hover:text-purple-400 duration-300">
-                Blog
-              </Link>
-            </li>
-          </ul>
+        <nav className="flex items-center gap-x-8">
+          <Link href="/about" className="hover:text-purple-400 duration-300">
+            About
+          </Link>
+          <Link href="/blog" className="hover:text-purple-400 duration-300">
+            Blog
+          </Link>
         </nav>
       </div>
     </header>

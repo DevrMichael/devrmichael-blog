@@ -23,7 +23,7 @@ export default async function Home() {
                   Object.entries(data.socialLinks)
                     .sort()
                     .map(([key, value], id) => (
-                      <li key={id}>
+                      <div key={id}>
                         <a
                           href={value}
                           rel="noreferer noopener"
@@ -31,7 +31,7 @@ export default async function Home() {
                         >
                           {key[0].toUpperCase() + key.toLowerCase().slice(1)}
                         </a>
-                      </li>
+                      </div>
                     ))}
               </ul>
             </div>
