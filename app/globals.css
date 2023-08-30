@@ -10,3 +10,7 @@ h2 {
 ul {
   list-style: unset;
 }
+
+ol {
+  list-style: decimal;
+}
