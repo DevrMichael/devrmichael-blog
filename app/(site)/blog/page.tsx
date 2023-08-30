@@ -31,15 +31,15 @@ export default async function Project() {
           >
             <Image
               src={project.logo}
-              width={90}
-              height={90}
+              width={150}
+              height={150}
               alt={project.name}
-              className="rounded-md p-2"
+              className="rounded-md"
             />
             <div>
-              <h2 className="font-semibold mb-1 text-zinc-500">
+              <h3 className="font-semibold mb-1 text-zinc-500">
                 {project.name}
-              </h2>
+              </h3>
               <div className="text-sm text-zinc-400">{project.tagline}</div>
             </div>
           </Link>
