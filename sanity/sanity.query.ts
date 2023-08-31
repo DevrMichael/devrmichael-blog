@@ -36,7 +36,7 @@ export async function getJob() {
 
 export async function getProjects() {
   return client.fetch(
-    groq`*[_type == "project"]{
+    groq`*[_type == "project"] | order(_createdAt desc) {
       _id, 
       name,
       "slug": slug.current,
