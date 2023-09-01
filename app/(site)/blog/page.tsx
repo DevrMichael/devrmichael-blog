@@ -11,14 +11,17 @@ export default async function Project() {
     <main className="max-w-7xl mx-auto md:px-16 px-6">
       <section className="max-w-2xl mb-16">
         <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight">
-          Featured projects I&apos;ve built over the years
+          Welcome to the blog!
         </h1>
         <p className="text-base text-zinc-400 leading-relaxed">
-          I&apos;ve worked on tons of little projects over the years but these
-          are the ones that I&apos;m most proud of. Many of them are
-          open-source, so if you see something that piques your interest, check
-          out the code and contribute if you have ideas for how it can be
-          improved.
+          Welcome to our blog, where we delve into the ever-evolving world of
+          programming and development. In this digital age, coding has become
+          the linchpin of innovation, driving everything from your favorite apps
+          to life-changing technologies. Whether you&apos;re a seasoned
+          developer or an aspiring coder, we aim to demystify intricate
+          programming concepts, explore best practices, and offer insights into
+          the latest industry trends. Join us on this journey to decode the
+          future, one line of code at a time.
         </p>
       </section>
 
@@ -27,12 +30,12 @@ export default async function Project() {
           <Link
             href={`/blog/${project.slug}`}
             key={project._id}
-            className="flex items-center gap-x-4 bg-white border border-[#1d1d20] border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
+            className="flex flex-col items-center gap-4 gap-x-4 bg-white border border-[#1d1d20] border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
           >
             <Image
               src={project.logo}
-              width={150}
-              height={150}
+              width={200}
+              height={200}
               alt={project.name}
               className="rounded-md"
             />
