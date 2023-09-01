@@ -30,12 +30,12 @@ export default async function Project() {
           <Link
             href={`/blog/${project.slug}`}
             key={project._id}
-            className="flex flex-col items-center gap-4 gap-x-4 bg-white border border-[#1d1d20] border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
+            className="flex flex-col justify-center	 items-center gap-4 gap-x-4 bg-white border border-[#1d1d20] border-transparent hover:border-zinc-700 p-4 rounded-lg ease-in-out text-zinc-400"
           >
             <Image
               src={project.logo}
-              width={200}
-              height={200}
+              width={250}
+              height={250}
               alt={project.name}
               className="rounded-md"
             />
