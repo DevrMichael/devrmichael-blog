@@ -14,13 +14,13 @@ export default async function Project() {
           Welcome to the blog!
         </h1>
         <p className="text-base text-zinc-400 leading-relaxed">
-          Welcome to our blog, where we delve into the ever-evolving world of
+          Welcome to my blog, where I delve into the ever-evolving world of
           programming and development. In this digital age, coding has become
           the linchpin of innovation, driving everything from your favorite apps
           to life-changing technologies. Whether you&apos;re a seasoned
-          developer or an aspiring coder, we aim to demystify intricate
+          developer or an aspiring coder, I aim to demystify intricate
           programming concepts, explore best practices, and offer insights into
-          the latest industry trends. Join us on this journey to decode the
+          the latest industry trends. Join me on this journey to decode the
           future, one line of code at a time.
         </p>
       </section>
