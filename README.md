@@ -2,7 +2,7 @@
 
 This portfolio website serves as a dynamic platform to showcase my professional skills, resume, and blog posts, along with a gallery of my other projects. Built with Next.js and bootstrapped with `create-next-app`, it combines performance with aesthetics, ensuring a seamless user experience.
 
-![Skjermbilde 2024-02-24 kl  12 31 43](https://github.com/DevrMichael/devrmichael-blog/assets/88589247/19335961-8cb0-4f4d-ba23-2f646bb482ed)
+![devrmichael-readme](https://github.com/DevrMichael/devrmichael-blog/assets/88589247/32217753-1be1-4c1d-b117-f20b7f5db66e)
 
 
 ## Project Overview
